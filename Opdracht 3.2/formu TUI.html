@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>TUI reis boeken</h1>
+    <label for="Voornaam">Voornaam:</label>
+    <form><input type="text" required onkeydown="return /[a-zA-Z]/i.test(event.key)"></form><br>
+    <label for="Achternaam">Achternaam:</label>
+    <form><input type="text" required onkeydown="return /[a-zA-Z]/i.test(event.key)"></form><br>
+    <label for="Geslacht">Geslacht:</label><br>
+
+    <div>
+        <input type="radio" id="Man" name="Geslacht" value="Man" checked />
+        <label for="Man">Man</label>
+      </div>
+      <div>
+        <input type="radio" id="Vrouw" name="Geslacht" value="Vrouw" />
+        <label for="Vrouw">Vrouw</label>
+      </div>
+      <div>
+        <input type="radio" id="Anders" name="Geslacht" value="Anders" />
+        <label for="Anders">Anders</label>
+      </div><br>
+    <label for="Straat en huisnummer">Straat en huisnummer:</label>
+    <form action=""><input type="text" required></form><br>
+    <label for="Postcode">Postcode:</label>
+    <form action=""><input type="text" required></form><br>
+    <label for="Stad">Stad:</label>
+    <form action=""><input type="text"></form><br>
+    <label for="Land">Land:</label>
+    <form action=""><input type="text" required></form><br>
+    <label for="BSN nummer">BSN nummer:</label>
+    <form action=""><input type="text" required maxlength="9" minlength="9"></form><br>
+    <label for="Bestemming">Bestemming:</label>
+    <div>
+        <input type="radio" id="Duitsland" name="Land" value="Duitsland" />
+        <label for="Duitsland">Duitsland</label>
+      </div>
+      <div>
+        <input type="radio" id="Griekenland" name="Land" value="Griekenland" />
+        <label for="Griekenland">Griekenland</label>
+      </div>
+      <div>
+        <input type="radio" id="Thailand" name="Land" value="Thailand" />
+        <label for="Thailand">Thailand</label>
+      </div>
+      <div>
+        <input type="radio" id="Japan" name="Land" value="Japan" />
+        <label for="Japan">Japan</label>
+      </div>
+      <div>
+        <input type="radio" id="China" name="Land" value="China" />
+        <label for="China">China</label>
+      </div>
+      <div>
+        <input type="radio" id="Brazilië" name="Land" value="Brazilië" />
+        <label for="Brazilië">Brazilië</label>
+      </div><br>
+    <label for="Vertek datum">Vertrek datum:</label><br>
+    <input type="date" required min="2023-09-15"><br><br>    
+    <label for="Terugkom datum">Terugkom datum:</label><br>
+    <input type="date" required min="2023-09-15"><br><br>
+    <label for="Aantal reisgenoten">Aantal reisgenoten:</label>
+    <div>
+        <input type="radio" id="1" name="reisgenoten" value="1" />
+        <label for="1">1</label>
+      </div>
+      <div>
+        <input type="radio" id="2" name="reisgenoten" value="2" />
+        <label for="2">2</label>
+      </div>
+      <div>
+        <input type="radio" id="3" name="reisgenoten" value="3" />
+        <label for="3">3</label>
+      </div>
+      <div>
+          <input type="radio" id="4" name="reisgenoten" value="4" />
+          <label for="4">4</label>
+        </div><br>
+    <label for="E-mail">E-mail:</label><br>
+    <input type="email" required><br><br>
+    <label for="password">Wachtwoord:</label><br>
+    <input type="password" required><br><br>
+    <input type="submit" value="Boek nu">
+</body>
+</html>
