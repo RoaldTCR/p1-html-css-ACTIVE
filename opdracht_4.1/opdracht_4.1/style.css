@@ -1,6 +1,6 @@
 h1 {
     font-size: 24px;
-    color: #4b69ff;
+    color: #040b2f;
     font-style: italic;
     font-weight: bold;
   }
@@ -17,7 +17,32 @@ h3 {
 p  {
   color: #4D4D4D;
 }
+p  {border-style: groove groove groove groove; border-width: 5px 5px 5px 10px; border-radius: 12px ; border-color: crimson;}
+.container p:first-of-type {
+  font-weight: bold;
+}
 a  {
    color: #8A2BE2;
    text-decoration: none;
 }
+h1{
+  background-image:url(https://images.hdqwalls.com/wallpapers/playstation-background-image-yu.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p.mix {border-style: dashed dotted double solid;}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h1 {
+  padding: 75px;
+  text-align: center;
+  color: rgb(120, 207, 244)
+  ;
+}
+body {padding: 0px;
+  margin: 0px;}
