@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -8,14 +9,33 @@ html {
 }
 body {
   font-family: "Goldman", cursive;
-  background-image: url(img/background.jpeg); background-size: cover;
+  height: 30cm;
+  background-image: url(img/background.jpeg);
+  background-size: cover;
   background-color: black;
+  color: white;
+  text-align: center;
 }
-
-h1 {color: white; font-weight: bold;}
-h2 {color: white; font-weight: bold;}
-p {color: white;}
-
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1, h2 {
+  color: white;
+  font-weight: bold;
+  text-align: center;}
+p {
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+}
+img {
+  float: left;
+  width: 40%;
+}
 nav {
   display: flex;
   width: 100%;
@@ -26,6 +46,7 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: fixed;
 }
 nav ul {
   display: flex;
@@ -34,7 +55,7 @@ nav ul {
 }
 nav li {
   font-size: 2.5rem;
-  padding: 0 4rem 0 4rem;
+  padding: 0 4rem;
 }
 nav a {
   color: white;
@@ -43,7 +64,8 @@ nav a {
 nav img {
   width: 5vw;
 }
-footer {position: fixed;
+footer {
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -51,5 +73,9 @@ footer {position: fixed;
   color: white;
   text-align: center;
   height: 2cm;
-font-size: 2.5rem;
-font-family: Goldman;}
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Goldman;
+}
