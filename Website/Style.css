@@ -1,0 +1,9 @@
+body {background-color: #85A27A;}
+a {color: #016241; font-size: x-large; font-weight: 1000; font-family: Inter;}
+li {list-style: none; margin-bottom: 20px; margin-left: 600px; position: ;}
+img {border-radius: 5%; }
+.white-square {
+    width: 1225px;
+    height: 400px;
+    background-color: white;
+}

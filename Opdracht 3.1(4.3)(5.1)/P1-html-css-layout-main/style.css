@@ -8,7 +8,13 @@ html {
 }
 body {
   font-family: "Goldman", cursive;
+  background-image: url(img/background.jpeg); background-size: cover;
+  background-color: black;
 }
+
+h1 {color: white; font-weight: bold;}
+h2 {color: white; font-weight: bold;}
+p {color: white;}
 
 nav {
   display: flex;
@@ -37,3 +43,13 @@ nav a {
 nav img {
   width: 5vw;
 }
+footer {position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #00a8c7;
+  color: white;
+  text-align: center;
+  height: 2cm;
+font-size: 2.5rem;
+font-family: Goldman;}
