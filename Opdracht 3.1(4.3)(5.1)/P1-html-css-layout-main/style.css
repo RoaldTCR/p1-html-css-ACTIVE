@@ -7,6 +7,9 @@
 html {
   font-size: 62.5%;
 }
+main {display: flex;
+flex-direction: row;
+align-items: center;}
 body {
   font-family: "Goldman", cursive;
   height: 30cm;
@@ -23,14 +26,26 @@ body {
   align-items: center;
   height: 100vh;
 }
-h1, h2 {
+h1 {
   color: white;
   font-weight: bold;
-  text-align: center;}
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 5cm;
+  font-size: xx-large;}
+h2 {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 20px;
+font-size: large;}
 p {
   color: white;
   text-align: center;
   margin-top: 1rem;
+  margin-left: 3cm;
+  margin-right: 3cm;
+  font-size: medium;
 }
 img {
   float: left;
