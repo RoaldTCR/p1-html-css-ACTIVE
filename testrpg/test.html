@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="rpg.js"></script>
+    <style>
+        body 
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .game-log-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .game-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        img {
+            max-width: 100px;
+        }
+
+        .log-container {
+            background-color: #f0f0f0;
+            padding: 10px;
+            width: 200px;
+            height: 300px;
+            overflow-y: auto;
+        }
+
+        body.shake {
+            animation: shake 0.1s ease-in-out;
+        }
+
+        @keyframes shake {
+            0% {
+                transform: translate(0, 0);
+            }
+
+            25% {
+                transform: translate(-2px, 2px);
+            }
+
+            50% {
+                transform: translate(2px, -2px);
+            }
+
+            75% {
+                transform: translate(-2px, 2px);
+            }
+
+            100% {
+                transform: translate(0, 0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="game-log-container">
+        <div class="game-container">
+            <img id="man" src="images/man.png" alt="Player">
+            <img id="enemyImg" src="images/enemy.png" alt="Slime">
+        </div>
+        <div class="log-container">
+            <div id="log"></div>
+        </div>
+    </div>
+
+<body>
+    <h3>fireball (Z)</h3>
+    <h3>lightning bolt (X)</h3>
+    <h3>slash (C)</h3>
+</body>
