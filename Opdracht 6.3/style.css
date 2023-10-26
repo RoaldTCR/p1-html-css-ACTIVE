@@ -1,0 +1,6 @@
+li, nav{list-style: none;
+color: blue;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;}

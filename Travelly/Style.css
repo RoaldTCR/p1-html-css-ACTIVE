@@ -1,0 +1,144 @@
+body {background-color: #131c27;
+max-width: 100%;
+display: flex;
+flex-direction: column;}
+
+a {color: rgb(255, 255, 255); text-decoration: none;
+font-family: Poppins ;}
+
+.titel {    font-family: Pattaya;
+        font-size: xx-large;
+        padding: 0%;}
+
+nav {display: flex;
+    color: white;
+    background-color: #131c27;
+    position: relative;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;}
+
+button {color: white;
+        background-color: #4c6e97;
+        padding-top: 0.5cm;
+        padding-bottom: 0.5cm;
+        padding-left: 1.5cm;
+        padding-right: 1.5cm;
+        border: none;}
+
+.P1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Poppins ;
+    height: 20cm;
+    align-content: center;
+    color: white;
+    background-image: url(images/img/img/landing-page.jpg);
+    background-size: cover;
+    font-size: large;}
+
+.P2 {display: flex;
+    padding-left: 2.5cm;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Poppins ;
+    height: 20cm;
+    color: white;
+    background-color: lightgray;
+    background-image: url(images/img/img/new-york-page.png);
+    background-size: cover;
+    font-size: large;}
+
+.P3A {display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Poppins ;
+    height: 5cm;
+    background-color: #131c27;
+    color: white;
+    font-size: large;}
+
+.P3B {display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Poppins ;
+    background-color: white;
+    color: black;
+    height: 12cm;
+    font-size: large;}
+
+    .WS1 {width: 8cm;
+        height: 7cm;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-style: solid none none none;
+    border-width: 2cm;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-color: #131c27;}
+
+    .WS2 {width: 8cm;
+        text-align: center;
+        height: 7cm;
+        border-style: solid none none none;
+        border-width: 2cm;
+        border-color: #131c27;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(255, 255, 255);}
+
+    .WS3 {width: 8cm;
+        text-align: center;
+        height: 7cm;
+        border-style: solid none none none;
+        border-width: 2cm;
+        border-color: #131c27;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(255, 255, 255);}
+
+.P4 {display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Poppins ;
+    color: white;
+    background-color: lightgrey;
+    background-image: url(images/img/img/contact-mountain.png);
+    background-size: cover;
+    height: 15cm;
+    font-size: large;}
+
+.form1 {display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+        background-color: #131c27;
+        width: 15cm;
+        height: 10cm;
+        border-radius: 5%;
+        font-size: large;}
+
+.P2H1 {
+    display: flex;
+    text-decoration: underline;
+    font-family: Poppins ;
+    font-size: large;}
+
+.footer {
+        display: flex;
+        font-family: Poppins ;
+        letter-spacing: 0.02cm;
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #131c27;
+        color: white;
+        font-size: large;}
+
+.button1 {height: 1cm;}
